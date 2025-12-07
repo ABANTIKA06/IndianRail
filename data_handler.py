@@ -3,7 +3,8 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 
-DATA_DIR = "/home/abantika/Documents/abantika_projects/Proj_rail/Raw_data"
+# Use relative path that works both locally and when deployed
+DATA_DIR = os.path.join(os.path.dirname(__file__), "Raw_data")
 FILES = ["EXP-TRAINS.json", "PASS-TRAINS.json", "SF-TRAINS.json"]
 
 def load_data():
