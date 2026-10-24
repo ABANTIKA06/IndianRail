@@ -30,7 +30,7 @@ A comprehensive Streamlit web application for comparing and analyzing Indian Rai
 
 ## Live Demo
 
-🌐 **[Try it on Streamlit Cloud](https://railapp.streamlit.app/)**
+🌐 **[Try it on Streamlit Cloud](**https://indianrailapp.streamlit.app/)
 
 ## Installation
 
